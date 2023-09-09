@@ -1,0 +1,526 @@
+body{
+    background-color: #23242a;
+    font-family: sans-serif;
+    justify-content: center;
+}
+body h1{
+    font-weight: bold;
+}
+.content{
+    color: aliceblue;
+    text-align: left;
+    height: 8cm;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.points{
+    align-items: calc(20px);
+}
+.u1{
+    list-style-type: none;
+    padding-inline-start: 0;
+    border: 3px solid;
+}
+
+@keyframes textSkew {
+    0% {
+        transform: skewX(0);
+    }
+    50% {
+        transform: skewX(30deg);
+    }
+    100% {
+        transform: skewX(0);
+    }
+}
+
+.skew-text {
+    font-size: 36px;
+    color: #45f3ff;
+    
+    
+    animation: textSkew 2s infinite;
+}
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 5px aqua; /* Change to your desired glow color */
+    }
+    50% {
+        text-shadow: 0 0 75px red; /* Adjust glow intensity */
+    }
+    100% {
+        text-shadow: 0 0 5px aqua;
+    }
+}
+
+.glow-text {
+    font-size: 36px;
+    font-weight: 400;
+    
+    color: aqua; /* Change to your desired text color */
+    animation: textGlow 2s infinite;
+}
+
+
+
+.contact{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.quieries{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+.prizes{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.event{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}    
+.login{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 30svh;
+    
+}
+.login a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: aqua;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+.login a:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 5px aqua,
+                0 0 25px aqua,
+                0 0 50px aqua,
+                0 0 200px aqua;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #000500);
+
+}
+.login a span {
+    position: absolute;
+    display: block;
+}
+.login a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent,aqua);
+    animation: animate1 1s infinite;
+}
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.login a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,aqua);
+    animation: animate2 1s infinite;
+    animation-delay: .25s;
+}
+@keyframes animate2 {
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 100%;
+    }
+}
+.login a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent,aqua);
+    animation: animate3 1s infinite;
+    animation-delay: .5s;
+
+}
+@keyframes animate3 {
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.login a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,aqua);
+    animation: animate4 1s infinite;
+    animation-delay: .75s;
+}
+@keyframes animate4 {
+    0%{
+        bottom: -100%;
+    }
+    100%{
+        bottom: 100%;
+    }
+}
+body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23242a;
+    min-height: 100vh;
+}
+body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23242a;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    width: 380px;
+    height: 460px;
+    background-color: #000500;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 460px;
+    background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 460px;
+    background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 460px;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+.borderline::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 460px;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s; 
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.box form h1{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box form .inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+.box form .inputbox input{
+    position: relative;
+    width: 100;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box form .inputbox span1{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05s;
+    transition: 0.5s;
+}
+.box form .inputbox input:valid ~ span1,
+.box form .inputbox input:focus ~ span1
+{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+.box form .inputbox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box form .inputbox input:valid ~ i,
+.box form .inputbox input:focus ~ i
+{
+    height: 44px;
+}
+.box form .links{
+    display: flex;
+    justify-content: space-between;
+}
+.box form .links a1{
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.box form .links a{
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.box form .links a1:hover,
+.box form .links a:hover
+{
+    color: #fff;
+}
+.box2{
+    position: relative;
+    width: 440px;
+    height: 630px;
+    background-color: #000500;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.box2::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 440px;
+    height: 630px;
+    background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box2::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 440px;
+    height: 630px;
+    background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline2::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 440px;
+    height: 630px;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+.borderline2::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 440px;
+    height: 630px;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s; 
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box2 form{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.box2 form h1{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box2 form .inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 25px;
+}
+.box2 form .inputbox input{
+    position: relative;
+    width: 100;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box2 form .inputbox span1{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05s;
+    transition: 0.5s;
+}
+.box2 form .inputbox input:valid ~ span1,
+.box2 form .inputbox input:valid ~ span1,
+.box2 form .inputbox input:focus ~ span1,
+.box2 form .inputbox input:focus ~ span1
+{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+.box2 form .inputbox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box2 form .inputbox input:valid ~ i,
+.box2 form .inputbox input:valid ~ i,
+.box2 form .inputbox input:focus ~ i,
+.box2 form .inputbox input:focus ~ i
+{
+    height: 44px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href="style.css">
+        <title>My project</title>
+    </head>
+    <body>
+        
+        <p><br></p> 
+            <div class="glow-text">
+                <h1>PHASE 1</h1></div>
+            
+                <p><br></p>  
+        <div class="event">
+            <u1>
+                <li>Sep 9 - Sep 10 Register</li>
+                <li>Registration Process</li>
+                <li>The registration would be simply done by just clicking the register button here and filling up a google form in which you would have to mention you and your team details. Registrations end on 11th September 2023</li>
+            </u1>
+        </div>
+        <p><br></p> 
+          
+            <div class="glow-text">
+                <h1>PHASE 2</h1>
+                <p><br></p> 
+           
+          </div>  
+          <div class="event">
+            <u1>
+                <li>Sep 11 - Sep 15 Shortlisting</li>
+                <li>Shortlisting of Teams</li>
+                <li>A shortlisting process would be done from which certain teams would be selected out of the lot to take part in TCE Hacks. Shortlisting process begins from 11th September and ends on 15th September 2023</li>
+            </u1>
+        </div>
+        <p><br></p> 
+        
+            <div class="glow-text">
+                <h1>PHASE 3</h1>
+            </div>
+          
+            <p><br></p> 
+       <div class="event">
+        <u1>
+            <li>
+                Sep 18 - Sep 19 Hackathon</li>
+                <li>Hackathon Begins for all</li>
+        </u1>
+    </div>
+
+    </body>
+</html>

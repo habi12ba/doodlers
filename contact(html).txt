@@ -1,0 +1,51 @@
+<!DOCTYPE html>  
+    <html lang="en">
+
+    <head>  
+        <link rel ="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Contact</title>  
+    </head>  
+    <body> 
+
+        <p><br></p>
+       
+            <div class="glow-text"> <h1>FOR MORE DETAILS</h1> 
+            </div>
+           
+        
+        
+        
+        <div class="contact"> 
+         
+       
+            <address>For more deatils contact :<b>Kavin Malar , Subashini </b> <br>Contact at:  
+                <a href="SOMEONE@student.tce.edu">kavinmalar@student.tce.edu ,</a>
+                <a href="SOMEONE@student.tce.edu">subashinis@student.tce.edu</a>
+                <br>You can also visit our blog:  
+               <a href="http://teamdoodlers.blogspot.com/">teamdoodlers blog</a>  
+               <p><br></p>
+               <br>
+                        </address> 
+        </div>
+        <hr>
+        <p><br></p>
+            <div class="glow-text">
+            <h1>FOR ANY QUERIES </h1> 
+            </div>
+        
+        
+                   <div class="quieries">
+                    
+                    <address>For any queries contact :<b>Swetha , Habiba </b> <br>Contact at:  
+                        <a href="SOMEONE@student.tce.edu">swethak@student.tce.edu ,</a>
+                        <a href="SOMEONE@student.tce.edu">habiba@student.tce.edu</a>
+                        <br>You can also visit our blog:  
+                        <a href="http://teamdoodlers.blogspot.com/">teamdoodlers blog</a>  
+                    </address> 
+                   </div> 
+                   <p><br></p> 
+                   <hr>
+            
+      </body>  
+    </html>

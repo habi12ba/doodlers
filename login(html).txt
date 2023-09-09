@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body1>
+    <div class="box">
+        <span class="borderline"></span>
+        <form>
+            <h1>LOGIN</h1>
+            <div class="inputbox">
+                <input type="text" required="e-mail">
+                <span1>E-mail</span1>
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" required="password">
+                <span1>Password</span1>
+                <i></i>
+            </div>
+            <div class="links">
+                <a1 href="#">Forgot Possword</a1>
+                
+                <a href="signup.html">new? REGISTER
+                   
+                    
+                </a>
+            
+            </div>
+            <div class="login">
+            <a href="">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                LOGIN
+            </a>
+        </div>
+            
+        </form>
+       
+    </div>
+</body1>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel ="stylesheet" href="style1.css">
+        
+        <title>HOME</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">HACKATHON</a></div>
+                <ul class="links">
+                    
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="prize.html">PRIZES</a></li>
+                    <li><a href="event.html">EVENT SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="services">SERVICES</a></li>
+                </ul>
+                <div class="login">
+                    <a href="login.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        LOGIN
+                    </a>
+                </div>
+                <div class="toggle_btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+                </div>
+                <div class="dropdown_menu ">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="prize.html">PRIZES</a></li>
+                    <li><a href="event.html">EVENT SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="services">SERVICES</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </div>
+        </header>
+
+        <main>
+            <section id="hero">
+                <h1></h1>
+            </section>
+        </main>
+
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+              ? 'fa fa-times'
+              : 'fa fa-bars'
+
+
+            }
+        </script>
+
+<div class="bottom">
+    <ul class="social-icons">
+        <h6>FOLLOW US</h6>
+        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.snapchat.com"><i class="fa fa-snapchat"></i></a></li>
+        <li><a href="https://www.google.com"><i class="fa fa-google"></i></a></li>
+        <!-- Add more social media links and icons as needed -->
+    </ul>
+</div>
+    
+
+    </body>
+</html>

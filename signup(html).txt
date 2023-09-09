@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>signup</title>
+    </head>
+    <body2>
+        <div class="box2">
+            <span class="borderline2"></span>
+            <form>
+                <h1>REGISTER</h1>
+                <div class="inputbox">
+                    <input type="text" required="required">
+                    <span1>E-mail</span1>
+                    <i></i>
+                </div>
+                <div class="inputbox">
+                    <input type="text" required="required">
+                    <span1>Username</span1>
+                    <i></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" required="required">
+                    <span1>Password</span1>
+                    <i></i>
+                 </div>
+                 
+                 <div class="inputbox">
+                    <input type="password" required="required">
+                    <span1>Confirm Password</span1>
+                    <i></i>
+                 </div>
+                 <div class="inputbox">
+                    <input type="Gender" required="required">
+                    <span1>Gender</span1>
+                    <i></i>
+                    </div>
+                 <div class="login">
+                    <a href="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        REGISTER
+                    </a>
+                </div>
+                </form>
+                </div>   
+    </body2>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href="style.css">
+        <title>My project</title>
+    </head>
+    <body>
+        <p><br></p> 
+        <div class="skew-text">
+            <div class="glow-text">
+        <h1>WHAT IS HACKATHON ?</h1>
+            </div>
+        </div> 
+        
+        <div class="content">
+            
+            <p><br></p> 
+                <p>
+                    Key purposes of a hackathon are Innovation, Problem Solving, Learning and Skill Development, Networking, Team Building, Prototype Development, Competition and Community Building.<br>
+                TCE Hacks is the annual hackathon organized by TCE CSE Association, Thiagarajar College Of Engineering, Madurai. It is an in-person 24-hr event for innovatively fostering real-world problem-solving skills.</p>                   
+                <div class="points">
+                    <p><br></p> 
+                    <u1>
+                    <li>Date: 18th September to 19th September 2023</li>
+                    <li>Team Size: 2 to 4 members                                         </li> 
+                     <li>Free registrations</li>
+                     <li>Participation fee of Rs. 200 to be paid after getting shortlisted</li>
+                     <li>Cash prizes will be announced soon!</li>
+                </div>   
+               
+            </ul>
+        </div>
+        
+    </body>
+
+</html>
